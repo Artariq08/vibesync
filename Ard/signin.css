@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#cont {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#form-wrapper {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    margin-top: 100px;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+}
+
+#form-wrapper h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#form-wrapper input[type="text"],
+#form-wrapper input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#form-wrapper button {
+    width: 100%;
+    padding: 10px;
+    background-color: #00239c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button{
+    color:white;
+}
